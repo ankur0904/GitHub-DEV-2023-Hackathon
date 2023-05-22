@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Whimsical Tasks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h2>Whimsical Tasks</h2>
+    </div>
+    <form action="/submit" method="post">
+      <div class="tasks">
+        <input
+          type="text"
+          name="task"
+          placeholder="Add the new tasks here..."
+          class="index-input"
+        />
+        <input type="submit" class="index-submit" />
+      </div>
+    </form>
+
+    <%- include("tasks") -%>

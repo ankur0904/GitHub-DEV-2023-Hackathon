@@ -1,0 +1,66 @@
+
+body {
+  background-color: #ACBCFF;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header h2 {
+  text-align: center;
+  font-size: 80px;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tasks {
+  background-color: #ffffff;
+  margin-left: 35%;
+  height: 200px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #ffffff;
+  position: relative;
+  margin-bottom: 20px;;
+}
+.index-input{
+  border: 3px solid #ACBCFF;
+  outline: none;
+  resize: none;
+  width: 98%;
+  height: 90px;
+  font-size: 25px;
+  display: block;
+  border-radius: 5px;
+  background-color: white;
+}
+.index-submit{
+    border: 3px solid #ACBCFF;
+    outline: none;
+    resize: none;
+    width: 100%;
+    font-size: 25px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 1px;
+    background-color: white; 
+}
+
+.task-list-tasks{
+  background-color: #ffffff;
+  height: 90px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px #ffffff;
+  float: left;
+  margin: 15px;
+}
+.task-list-title{
+  font-size: 26px;
+  color: #7051ca;
+}
+
+
+.task-list-title li{
+  list-style-type: square;
+  margin-left: 7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
